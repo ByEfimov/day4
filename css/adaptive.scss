@@ -87,6 +87,13 @@
 
 @media (max-width: 520px) {
   .conatiner {
+    .footer {
+      flex-direction: column;
+      gap: 20px;
+      .footer-link {
+        display: none;
+      }
+    }
     .main-info .main-right .main-text-first {
       font-size: 36px;
       line-height: 50px;
@@ -98,6 +105,18 @@
     .second-block .second-left .second-title {
       font-size: 36px;
       line-height: 50px;
+    }
+    .items {
+      padding-right: 0px;
+      .item {
+        background-position: center;
+        max-width: 350px;
+        min-width: 278px;
+        .item-name {
+          font-size: 22px;
+        }
+      }
+      padding-left: 0px;
     }
   }
 }
