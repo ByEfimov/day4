@@ -86,7 +86,8 @@
   .main-info {
     display: flex;
     .main-left {
-      width: 700px;
+      max-width: 700px;
+      width: 100%;
       .main-graffity {
         border: 1px solid #000;
         border-top: none;
@@ -108,7 +109,8 @@
       }
     }
     .main-right {
-      width: 700px;
+      max-width: 700px;
+      width: 100%;
       .main-text-first {
         height: 235px;
         border: 1px solid #000;
@@ -212,7 +214,8 @@
   .second-block {
     display: flex;
     .second-left {
-      width: 700px;
+      max-width: 700px;
+      width: 100%;
       .second-title {
         border: 1px #000 solid;
         border-top: none;
@@ -227,7 +230,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 228px;
+        height: 227px;
       }
       .second-image {
         border: 1px solid #000;
@@ -239,7 +242,8 @@
       }
     }
     .second-right {
-      width: 700px;
+      max-width: 700px;
+      width: 100%;
       .right-text {
         color: #000;
         text-align: center;
@@ -293,13 +297,13 @@
       align-items: center;
       .main-graffity-back {
         position: absolute;
-        width: 860px;
-        height: 503px;
+        max-width: 860px;
+        max-height: 503px;
       }
       .main-graffity-front {
         position: absolute;
-        width: 810.91px;
-        height: 374.076px;
+        max-width: 810.91px;
+        max-height: 374.076px;
       }
     }
   }
@@ -312,6 +316,15 @@
     justify-content: space-between;
 
     .footer-link {
+      color: #000;
+      text-align: center;
+      font-size: 15px;
+      font-family: Roboto;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .footer-insta {
       color: #000;
       text-align: center;
       font-size: 15px;

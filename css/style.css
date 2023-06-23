@@ -71,7 +71,8 @@
   .conatiner .main-info {
     display: flex; }
     .conatiner .main-info .main-left {
-      width: 700px; }
+      max-width: 700px;
+      width: 100%; }
       .conatiner .main-info .main-left .main-graffity {
         border: 1px solid #000;
         border-top: none;
@@ -88,7 +89,8 @@
       .conatiner .main-info .main-left .image-block-2 {
         border-top: none; }
     .conatiner .main-info .main-right {
-      width: 700px; }
+      max-width: 700px;
+      width: 100%; }
       .conatiner .main-info .main-right .main-text-first {
         height: 235px;
         border: 1px solid #000;
@@ -177,7 +179,8 @@
   .conatiner .second-block {
     display: flex; }
     .conatiner .second-block .second-left {
-      width: 700px; }
+      max-width: 700px;
+      width: 100%; }
       .conatiner .second-block .second-left .second-title {
         border: 1px #000 solid;
         border-top: none;
@@ -192,7 +195,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 228px; }
+        height: 227px; }
       .conatiner .second-block .second-left .second-image {
         border: 1px solid #000;
         border-top: none;
@@ -200,7 +203,8 @@
         .conatiner .second-block .second-left .second-image img {
           width: 100%; }
     .conatiner .second-block .second-right {
-      width: 700px; }
+      max-width: 700px;
+      width: 100%; }
       .conatiner .second-block .second-right .right-text {
         color: #000;
         text-align: center;
@@ -249,12 +253,12 @@
       align-items: center; }
       .conatiner .lastblock .back .main-graffity-back {
         position: absolute;
-        width: 860px;
-        height: 503px; }
+        max-width: 860px;
+        max-height: 503px; }
       .conatiner .lastblock .back .main-graffity-front {
         position: absolute;
-        width: 810.91px;
-        height: 374.076px; }
+        max-width: 810.91px;
+        max-height: 374.076px; }
   .conatiner .footer {
     border: 1px #000 solid;
     border-top: none;
@@ -263,6 +267,14 @@
     padding: 20px 93px;
     justify-content: space-between; }
     .conatiner .footer .footer-link {
+      color: #000;
+      text-align: center;
+      font-size: 15px;
+      font-family: Roboto;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase; }
+    .conatiner .footer .footer-insta {
       color: #000;
       text-align: center;
       font-size: 15px;
